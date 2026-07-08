@@ -1,6 +1,38 @@
 .image-spaced {
   display: block;
+  max-width: 100% !important;
+  height: auto !important;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.25rem;
+  object-fit: contain;
+}
+
+.bd-content img,
+.bd-article img,
+main img,
+article img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.bd-content img:not(.logo__image),
+.bd-article img:not(.logo__image),
+main img:not(.logo__image),
+article img:not(.logo__image) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+}
+
+/* ESA/NASA MAAP images embedded as GitHub user attachments in use-cases-definition.md.
+   These files currently have fixed HTML width and height attributes, which can distort them.
+   Force responsive rendering and preserve each image intrinsic aspect ratio. */
+img[src*="4bc950b8-a91b-4d32-937c-907d230fa6c0"],
+img[src*="a7dd75ee-e8ba-4312-9cb7-398869fa9409"] {
+  width: 100% !important;
+  max-width: 1000px !important;
+  height: auto !important;
+  object-fit: contain !important;
 }
