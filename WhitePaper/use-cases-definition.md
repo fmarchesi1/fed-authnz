@@ -148,9 +148,17 @@ Beyond interactive user access, the ESA and NASA MAAP platforms may also establi
 
 [ESA MAAP (BIOMASS)](https://portal.maap.eo.esa.int/biomass/)
 
-<img width="1000" height="650" alt="image" src="https://github.com/user-attachments/assets/4bc950b8-a91b-4d32-937c-907d230fa6c0" />
+```{image} img/esa-nasa-maap-earthdata-1.png
+:alt: ESA NASA MAAP and Earthdata information
+:width: 90%
+:class: image-spaced
+```
 
-<img width="1000" height="350" alt="image" src="https://github.com/user-attachments/assets/a7dd75ee-e8ba-4312-9cb7-398869fa9409" />
+```{image} img/esa-nasa-maap-earthdata-2.png
+:alt: ESA NASA MAAP and Earthdata authentication information
+:width: 90%
+:class: image-spaced
+```
 
 [NASA MAAP](https://maap-project.org/)
 
@@ -413,7 +421,7 @@ The objectives of the task were as follows:
 - Explore the integration of data quality considerations into IPT frameworks in such a way that users of Earth Observation data can have confidence in the data they use for analysis.
 - Develop a reference architecture that integrates data quality considerations into IPT frameworks
 - Demonstrate how the reference architecture can improve confidence in Earth Observation data
- 
+  
 The activity aimed to provide a standards-based approach through which data producers such as space agencies can document and communicate the quality of their data products in a way that is both human and machine readable.
 
 The Engineering Report OGC 26-005 {cite}`OGC_26-005` presents two IPT server implementations that were prototyped during the Testbed-21 activities:
@@ -451,4 +459,3 @@ Other Self-Sovereign Identity (SSI) aspects with W3C compliant VC/VP were identi
 |    EOEPCA+  |  |  |  |   |   |
 |    Japan SSI Decentralised  |   |    |    |    |   |
 |    Integrity Provenance and Trust  |   |    |    |    |   |
-
